@@ -1,0 +1,11 @@
+import com.example.Pet
+
+model {
+    Pet pet
+}
+
+json {
+    format "general"
+    name pet.name
+    id pet.id
+}
